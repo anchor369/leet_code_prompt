@@ -223,9 +223,10 @@ def main():
 
                 # Update progress if score is 80 or above
                 if result['score'] >= 80:
-                    st.session_state['completed_problems'].add(problem['id'])
-                    st.session_state['progress'][topic]['completed'] = len(st.session_state['completed_problems'])
-                    st.balloons()
+                    if problem['id'] not in st.session_state['completed_problems']:
+                        st.session_state['completed_problems'].add(problem['id'])
+                        st.session_state['progress'][topic]['completed'] += 1
+                        st.balloons()
             else:
                 st.error("Please enter a valid prompt.")
 
