@@ -1,0 +1,184 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "name": "Few-Shot Basic Math",
+      "difficulty": "easy",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to solve a basic math problem. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on solving a basic math problem.",
+      "examples": {
+        "good": "Solve the following math problems: 1. 5 + 7 = 12. 2. 3 + 4 = 7. 3. 8 + 2 = 10.",
+        "bad": "Do some math."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Few-Shot Sentence Completion",
+      "difficulty": "easy",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to complete a sentence. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on completing a sentence.",
+      "examples": {
+        "good": "Complete the following sentences: 1. 'The sun rises in the... east.' 2. 'The sky is... blue.' 3. 'Water boils at... 100°C.'",
+        "bad": "Finish this sentence."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Few-Shot Fact Retrieval",
+      "difficulty": "easy",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to retrieve factual pieces of information. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on retrieving facts.",
+      "examples": {
+        "good": "Retrieve the following facts: 1. The capital of France is Paris. 2. The capital of Italy is Rome. 3. The capital of Japan is Tokyo.",
+        "bad": "Tell me some facts."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Few-Shot Translation",
+      "difficulty": "easy",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to translate sentences from one language to another. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on translation.",
+      "examples": {
+        "good": "Translate the following sentences into French: 1. 'Hello' is 'Bonjour.' 2. 'Goodbye' is 'Au revoir.' 3. 'Thank you' is 'Merci.'",
+        "bad": "Translate this."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Few-Shot Summarization",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to summarize paragraphs. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on summarization.",
+      "examples": {
+        "good": "Summarize the following paragraphs: 1. 'The Industrial Revolution was a period of major industrialization...' 2. 'The Renaissance was a period of cultural rebirth...' 3. 'The French Revolution was a period of radical social and political upheaval...'",
+        "bad": "Summarize this."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Few-Shot Code Debugging",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to debug Python code snippets. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on debugging.",
+      "examples": {
+        "good": "Debug the following Python code snippets: 1. `print('Hello, World!`.) 2. `x = 5 + '7'` 3. `if x = 5: print(x)`",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Few-Shot Creative Writing",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate short creative stories. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on creative writing.",
+      "examples": {
+        "good": "Write short stories about robots discovering emotions. Examples: 1. 'Once upon a time, a robot named R2-D2...' 2. 'In a distant future, a robot named Wall-E...' 3. 'A robot named Optimus Prime...'",
+        "bad": "Tell a story."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Few-Shot Logical Puzzles",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to solve logical puzzles. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on solving logical puzzles.",
+      "examples": {
+        "good": "Solve the following logical puzzles: 1. 'If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?' 2. 'If all cats are animals, and all animals are mammals, are all cats mammals?' 3. 'If all birds can fly, and penguins are birds, can penguins fly?'",
+        "bad": "Solve this puzzle."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Few-Shot Ethical Dilemmas",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to resolve ethical dilemmas. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on resolving ethical dilemmas.",
+      "examples": {
+        "good": "Resolve the following ethical dilemmas: 1. 'Is it okay to sacrifice one person to save five others?' 2. 'Is it okay to lie to protect someone's feelings?' 3. 'Is it okay to steal to feed a starving family?'",
+        "bad": "Answer this dilemma."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Few-Shot Philosophical Questions",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to answer deep philosophical questions. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on answering philosophical questions.",
+      "examples": {
+        "good": "Answer the following philosophical questions: 1. 'What is the meaning of life?' 2. 'What is the nature of reality?' 3. 'What is the purpose of existence?'",
+        "bad": "Answer this question."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Few-Shot Complex Math",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to solve complex math problems. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on solving complex math problems.",
+      "examples": {
+        "good": "Solve the following math problems: 1. 'What is the integral of x^2 from 0 to 1?' 2. 'What is the derivative of x^3?' 3. 'What is the square root of 144?'",
+        "bad": "Solve this math problem."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Few-Shot Code Generation",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate Python functions. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating functional code.",
+      "examples": {
+        "good": "Write Python functions for the following tasks: 1. 'Calculate the factorial of a number.' 2. 'Add two numbers.' 3. 'Check if a number is prime.'",
+        "bad": "Generate some code."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Few-Shot Hypothetical Scenarios",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to analyze hypothetical scenarios. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on analyzing hypothetical scenarios.",
+      "examples": {
+        "good": "Analyze the following hypothetical scenarios: 1. 'What would happen if humans could live on Mars?' 2. 'What would happen if time travel were possible?' 3. 'What would happen if AI ruled the world?'",
+        "bad": "Analyze this scenario."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Few-Shot Debate Topics",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to argue for or against debate topics. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on presenting debate arguments.",
+      "examples": {
+        "good": "Argue for or against the following debate topics: 1. 'Should AI be allowed to make decisions in healthcare?' 2. 'Should schools eliminate homework?' 3. 'Should voting be mandatory?'",
+        "bad": "Debate this topic."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Few-Shot Sarcasm Detection",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to detect sarcasm in sentences. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on detecting sarcasm.",
+      "examples": {
+        "good": "Detect sarcasm in the following sentences: 1. 'Oh great, another Monday. Just what I needed.' 2. 'Sure, because I love doing extra work on weekends.' 3. 'Wow, this traffic is just fantastic.'",
+        "bad": "Detect sarcasm."
+      }
+    }
+  ]
+}

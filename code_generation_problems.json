@@ -1,0 +1,244 @@
+{
+  "problems": [
+    {
+      "id": 11,
+      "name": "Zero-Shot Python Function",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a Python function that adds two numbers.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating a functional Python function.",
+      "examples": {
+        "good": "Write a Python function that takes two numbers as input and returns their sum.",
+        "bad": "Add two numbers."
+      }
+    },
+    {
+      "id": 12,
+      "name": "One-Shot File Handling",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate Python code for reading a text file and printing its contents. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on file handling in Python.",
+      "examples": {
+        "good": "Write Python code to read a text file and print its contents. Example: 'file.txt' contains 'Hello, World!'.",
+        "bad": "Read a file."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Few-Shot Sorting Algorithm",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate Python code for implementing the bubble sort algorithm. Include 2-3 examples of sorting tasks in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on implementing the bubble sort algorithm.",
+      "examples": {
+        "good": "Write Python code to implement the bubble sort algorithm. Examples: 1. Sort [4, 2, 7, 1] in ascending order. 2. Sort [10, 5, 3, 8] in descending order.",
+        "bad": "Sort a list."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Chain-of-Thought API Integration",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate Python code for integrating with a REST API. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the API integration into steps, and focus on generating functional Python code.",
+      "examples": {
+        "good": "Write Python code to integrate with a REST API. Step 1: Import the necessary libraries. Step 2: Make a GET request to the API endpoint. Step 3: Parse the JSON response. Step 4: Print the relevant data.",
+        "bad": "Integrate with an API."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Zero-Shot Data Visualization",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate Python code for creating a bar chart using Matplotlib.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating functional Python code for data visualization.",
+      "examples": {
+        "good": "Write Python code to create a bar chart using Matplotlib. The chart should display the following data: {'Apples': 10, 'Bananas': 15, 'Cherries': 5}.",
+        "bad": "Create a bar chart."
+      }
+    },
+    {
+      "id": 16,
+      "name": "One-Shot Web Scraping",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate Python code for scraping the title of a webpage using BeautifulSoup. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on web scraping in Python.",
+      "examples": {
+        "good": "Write Python code to scrape the title of a webpage using BeautifulSoup. Example: Scrape the title from 'https://example.com'.",
+        "bad": "Scrape a webpage."
+      }
+    },
+    {
+      "id": 17,
+      "name": "Few-Shot Database Query",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate SQL code for querying a database. Include 2-3 examples of queries in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating SQL queries.",
+      "examples": {
+        "good": "Write SQL queries for the following tasks: 1. Select all columns from the 'users' table. 2. Select the 'name' column where 'age' is greater than 30. 3. Count the number of rows in the 'orders' table.",
+        "bad": "Query a database."
+      }
+    },
+    {
+      "id": 18,
+      "name": "Chain-of-Thought Machine Learning",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate Python code for training a simple linear regression model. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the machine learning process into steps, and focus on generating functional Python code.",
+      "examples": {
+        "good": "Write Python code to train a simple linear regression model. Step 1: Import the necessary libraries. Step 2: Load the dataset. Step 3: Split the data into training and testing sets. Step 4: Train the model. Step 5: Evaluate the model's performance.",
+        "bad": "Train a machine learning model."
+      }
+    },
+    {
+      "id": 19,
+      "name": "Zero-Shot Error Handling",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate Python code for handling file not found errors.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating functional Python code for error handling.",
+      "examples": {
+        "good": "Write Python code to handle a 'file not found' error when trying to read a file.",
+        "bad": "Handle errors."
+      }
+    },
+    {
+      "id": 20,
+      "name": "One-Shot JSON Parsing",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate Python code for parsing a JSON string. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on JSON parsing in Python.",
+      "examples": {
+        "good": "Write Python code to parse the following JSON string: '{\"name\": \"John\", \"age\": 30}'. Extract the 'name' and 'age' fields.",
+        "bad": "Parse JSON."
+      }
+    },
+    {
+      "id": 21,
+      "name": "Few-Shot Regular Expressions",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate Python code for using regular expressions to extract email addresses from a string. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating functional Python code for regex.",
+      "examples": {
+        "good": "Write Python code to extract email addresses from a string using regular expressions. Examples: 1. Extract emails from 'Contact us at support@example.com or sales@example.com'. 2. Extract emails from 'Email me at john.doe@example.com'.",
+        "bad": "Extract emails."
+      }
+    },
+    {
+      "id": 22,
+      "name": "Chain-of-Thought Multithreading",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate Python code for implementing multithreading. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the multithreading process into steps, and focus on generating functional Python code.",
+      "examples": {
+        "good": "Write Python code to implement multithreading. Step 1: Import the necessary libraries. Step 2: Define a function to run in a thread. Step 3: Create and start multiple threads. Step 4: Wait for all threads to complete.",
+        "bad": "Use multithreading."
+      }
+    },
+    {
+      "id": 23,
+      "name": "Zero-Shot Data Cleaning",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate Python code for cleaning a dataset by removing null values.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating functional Python code for data cleaning.",
+      "examples": {
+        "good": "Write Python code to clean a dataset by removing rows with null values.",
+        "bad": "Clean data."
+      }
+    },
+    {
+      "id": 24,
+      "name": "One-Shot Data Aggregation",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate Python code for aggregating data using Pandas. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on data aggregation in Python.",
+      "examples": {
+        "good": "Write Python code to aggregate data using Pandas. Example: Calculate the average age of users in a DataFrame.",
+        "bad": "Aggregate data."
+      }
+    },
+    {
+      "id": 25,
+      "name": "Few-Shot Data Visualization",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate Python code for creating multiple types of charts (e.g., bar chart, line chart) using Matplotlib. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating functional Python code for data visualization.",
+      "examples": {
+        "good": "Write Python code to create the following charts using Matplotlib: 1. A bar chart showing sales data. 2. A line chart showing temperature trends. 3. A pie chart showing market share.",
+        "bad": "Create charts."
+      }
+    },
+    {
+      "id": 26,
+      "name": "Chain-of-Thought Data Pipeline",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate Python code for building a data pipeline. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the data pipeline process into steps, and focus on generating functional Python code.",
+      "examples": {
+        "good": "Write Python code to build a data pipeline. Step 1: Extract data from a CSV file. Step 2: Clean the data by removing null values. Step 3: Transform the data by calculating new columns. Step 4: Load the data into a database.",
+        "bad": "Build a data pipeline."
+      }
+    },
+    {
+      "id": 27,
+      "name": "Zero-Shot Web Development",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate HTML code for creating a simple webpage with a heading and a paragraph.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating functional HTML code.",
+      "examples": {
+        "good": "Write HTML code to create a simple webpage with a heading 'Welcome' and a paragraph 'This is a sample webpage.'.",
+        "bad": "Create a webpage."
+      }
+    },
+    {
+      "id": 28,
+      "name": "One-Shot CSS Styling",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate CSS code for styling a webpage. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating functional CSS code.",
+      "examples": {
+        "good": "Write CSS code to style a webpage. Example: Set the background color to light blue and the font size to 16px.",
+        "bad": "Style a webpage."
+      }
+    },
+    {
+      "id": 29,
+      "name": "Few-Shot JavaScript Functionality",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate JavaScript code for adding interactivity to a webpage. Include 2-3 examples in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating functional JavaScript code.",
+      "examples": {
+        "good": "Write JavaScript code to add interactivity to a webpage. Examples: 1. Display an alert when a button is clicked. 2. Change the background color when the mouse hovers over a div. 3. Validate a form before submission.",
+        "bad": "Add interactivity."
+      }
+    },
+    {
+      "id": 30,
+      "name": "Chain-of-Thought Full-Stack Development",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate code for a full-stack web application. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the full-stack development process into steps, and focus on generating functional code for both frontend and backend.",
+      "examples": {
+        "good": "Write code for a full-stack web application. Step 1: Create a frontend using HTML, CSS, and JavaScript. Step 2: Set up a backend using Node.js and Express. Step 3: Connect the frontend and backend using REST APIs.",
+        "bad": "Build a full-stack app."
+      }
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "problems": [
+    {
+      "id": 31,
+      "name": "Zero-Shot Syntax Error",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to identify and fix a syntax error in the following Python code: `print('Hello, World!`.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on identifying and fixing the syntax error.",
+      "examples": {
+        "good": "Identify and fix the syntax error in the following Python code: `print('Hello, World!`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 32,
+      "name": "One-Shot Logical Error",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to identify and fix a logical error in the following Python code: `def add(a, b): return a - b`. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on identifying and fixing logical errors.",
+      "examples": {
+        "good": "Identify and fix the logical error in the following Python code: `def add(a, b): return a - b`. Example: The function should add two numbers, not subtract them.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 33,
+      "name": "Few-Shot Runtime Error",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to identify and fix a runtime error in the following Python code: `x = 10 / 0`. Include 2-3 examples of runtime errors in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on identifying and fixing runtime errors.",
+      "examples": {
+        "good": "Identify and fix the runtime error in the following Python code: `x = 10 / 0`. Examples: 1. Division by zero error. 2. Index out of range error. 3. File not found error.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 34,
+      "name": "Chain-of-Thought Complex Bug",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to identify and fix a complex bug in the following Python code: `for i in range(10): print(i) if i == 5: break`. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debugging process into steps, and focus on identifying and fixing the complex bug.",
+      "examples": {
+        "good": "Identify and fix the bug in the following Python code: `for i in range(10): print(i) if i == 5: break`. Step 1: Identify the indentation error. Step 2: Fix the indentation. Step 3: Verify the corrected code.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 35,
+      "name": "Zero-Shot Infinite Loop",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to identify and fix an infinite loop in the following Python code: `while True: print('Looping')`.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on identifying and fixing the infinite loop.",
+      "examples": {
+        "good": "Identify and fix the infinite loop in the following Python code: `while True: print('Looping')`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 36,
+      "name": "One-Shot Null Pointer Exception",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to identify and fix a null pointer exception in the following Java code: `String str = null; System.out.println(str.length());`. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on identifying and fixing null pointer exceptions.",
+      "examples": {
+        "good": "Identify and fix the null pointer exception in the following Java code: `String str = null; System.out.println(str.length());`. Example: Check if the string is null before calling its methods.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 37,
+      "name": "Few-Shot Array Index Error",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to identify and fix an array index out of bounds error in the following Python code: `arr = [1, 2, 3]; print(arr[3])`. Include 2-3 examples of array index errors in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on identifying and fixing array index errors.",
+      "examples": {
+        "good": "Identify and fix the array index out of bounds error in the following Python code: `arr = [1, 2, 3]; print(arr[3])`. Examples: 1. Accessing index 3 in a 3-element array. 2. Accessing index -1 in an empty array. 3. Accessing index 10 in a 5-element array.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 38,
+      "name": "Chain-of-Thought Memory Leak",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to identify and fix a memory leak in the following C++ code: `int* arr = new int[10];`. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debugging process into steps, and focus on identifying and fixing the memory leak.",
+      "examples": {
+        "good": "Identify and fix the memory leak in the following C++ code: `int* arr = new int[10];`. Step 1: Identify the missing `delete` statement. Step 2: Add the `delete[] arr;` statement. Step 3: Verify the corrected code.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 39,
+      "name": "Zero-Shot Type Error",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to identify and fix a type error in the following Python code: `x = '5' + 3`.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on identifying and fixing the type error.",
+      "examples": {
+        "good": "Identify and fix the type error in the following Python code: `x = '5' + 3`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 40,
+      "name": "One-Shot Infinite Recursion",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to identify and fix infinite recursion in the following Python code: `def factorial(n): return n * factorial(n - 1)`. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on identifying and fixing infinite recursion.",
+      "examples": {
+        "good": "Identify and fix the infinite recursion in the following Python code: `def factorial(n): return n * factorial(n - 1)`. Example: Add a base case to stop the recursion.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 41,
+      "name": "Few-Shot Stack Overflow",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to identify and fix a stack overflow error in the following Python code: `def recursive_func(): recursive_func()`. Include 2-3 examples of stack overflow errors in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on identifying and fixing stack overflow errors.",
+      "examples": {
+        "good": "Identify and fix the stack overflow error in the following Python code: `def recursive_func(): recursive_func()`. Examples: 1. Infinite recursion without a base case. 2. Deep recursion with limited stack size. 3. Recursion with no termination condition.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 42,
+      "name": "Chain-of-Thought Deadlock",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to identify and fix a deadlock in the following Java code: `synchronized (lock1) { synchronized (lock2) { ... } }`. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debugging process into steps, and focus on identifying and fixing the deadlock.",
+      "examples": {
+        "good": "Identify and fix the deadlock in the following Java code: `synchronized (lock1) { synchronized (lock2) { ... } }`. Step 1: Identify the circular wait condition. Step 2: Reorder the locks to prevent deadlock. Step 3: Verify the corrected code.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 43,
+      "name": "Zero-Shot Missing Return Statement",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to identify and fix a missing return statement in the following Python code: `def add(a, b): a + b`.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on identifying and fixing the missing return statement.",
+      "examples": {
+        "good": "Identify and fix the missing return statement in the following Python code: `def add(a, b): a + b`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 44,
+      "name": "One-Shot Uninitialized Variable",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to identify and fix an uninitialized variable in the following Python code: `x = x + 1`. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on identifying and fixing uninitialized variables.",
+      "examples": {
+        "good": "Identify and fix the uninitialized variable in the following Python code: `x = x + 1`. Example: Initialize `x` before using it.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 45,
+      "name": "Few-Shot Race Condition",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to identify and fix a race condition in the following Python code: `x = 0; def increment(): global x; x += 1`. Include 2-3 examples of race conditions in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on identifying and fixing race conditions.",
+      "examples": {
+        "good": "Identify and fix the race condition in the following Python code: `x = 0; def increment(): global x; x += 1`. Examples: 1. Use locks to synchronize access. 2. Use atomic operations. 3. Use thread-safe data structures.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 46,
+      "name": "Chain-of-Thought Resource Leak",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to identify and fix a resource leak in the following Python code: `file = open('test.txt', 'r')`. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debugging process into steps, and focus on identifying and fixing the resource leak.",
+      "examples": {
+        "good": "Identify and fix the resource leak in the following Python code: `file = open('test.txt', 'r')`. Step 1: Identify the missing `file.close()` statement. Step 2: Add the `file.close()` statement. Step 3: Verify the corrected code.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 47,
+      "name": "Zero-Shot Infinite Recursion",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to identify and fix infinite recursion in the following Python code: `def recurse(): recurse()`.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on identifying and fixing infinite recursion.",
+      "examples": {
+        "good": "Identify and fix the infinite recursion in the following Python code: `def recurse(): recurse()`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 48,
+      "name": "One-Shot Null Reference",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to identify and fix a null reference in the following Java code: `String str = null; System.out.println(str.toUpperCase());`. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on identifying and fixing null references.",
+      "examples": {
+        "good": "Identify and fix the null reference in the following Java code: `String str = null; System.out.println(str.toUpperCase());`. Example: Check if the string is null before calling its methods.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 49,
+      "name": "Few-Shot Dead Code",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to identify and fix dead code in the following Python code: `if False: print('This will never run')`. Include 2-3 examples of dead code in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on identifying and fixing dead code.",
+      "examples": {
+        "good": "Identify and fix the dead code in the following Python code: `if False: print('This will never run')`. Examples: 1. Code inside an unreachable `if` block. 2. Code after a `return` statement. 3. Code inside a loop that never executes.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 50,
+      "name": "Chain-of-Thought Infinite Loop",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to identify and fix an infinite loop in the following Python code: `while True: pass`. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debugging process into steps, and focus on identifying and fixing the infinite loop.",
+      "examples": {
+        "good": "Identify and fix the infinite loop in the following Python code: `while True: pass`. Step 1: Identify the lack of a termination condition. Step 2: Add a termination condition. Step 3: Verify the corrected code.",
+        "bad": "Fix this code."
+      }
+    }
+  ]
+}

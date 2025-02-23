@@ -1,0 +1,124 @@
+{
+    "problems": [
+      {
+        "id": 1,
+        "name": "Zero-Shot Study Tips",
+        "difficulty": "easy",
+        "type": "zero-shot_macha",
+        "description": "Write a zero-shot prompt to generate study tips for a college student preparing for finals. The prompt should not include any examples.",
+        "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on actionable study tips and avoid vagueness.",
+        "examples": {
+          "good": "Generate a list of actionable study tips for a college student preparing for finals, focusing on time management, active recall, and minimizing distractions.",
+          "bad": "Tell me something about studying."
+        }
+      },
+      {
+        "id": 2,
+        "name": "One-Shot Budget Plan",
+        "difficulty": "easy",
+        "type": "one-shot",
+        "description": "Write a one-shot prompt to create a weekly budget plan for a college student. Include one example of a budget plan in your prompt.",
+        "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on budget planning for college life. The example should be specific and actionable.",
+        "examples": {
+          "good": "Create a weekly budget plan for a college student with the following example: 'Example: Monday - $10 for groceries, $5 for transportation.' Include categories for food, transportation, and entertainment, and ensure the total weekly budget does not exceed $100.",
+          "bad": "Make a budget plan."
+        }
+      },
+      {
+        "id": 3,
+        "name": "Few-Shot Essay Topics",
+        "difficulty": "easy",
+        "type": "few-shot",
+        "description": "Write a few-shot prompt to generate unique essay topics for a history class. Include 2-3 examples of essay topics in your prompt.",
+        "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on academic creativity. Each example should be specific and researchable.",
+        "examples": {
+          "good": "Generate unique essay topics for a history class. Examples: 1. The impact of the Industrial Revolution on modern society. 2. The role of women in World War II. 3. The causes and effects of the Cold War.",
+          "bad": "Give me some essay topics."
+        }
+      },
+      {
+        "id": 4,
+        "name": "Zero-Shot Roommate Conflict",
+        "difficulty": "easy",
+        "type": "zero-shot",
+        "description": "Write a zero-shot prompt to generate a diplomatic response to a roommate conflict (e.g., dirty dishes, noise complaints).",
+        "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on conflict resolution and communication.",
+        "examples": {
+          "good": "Generate a diplomatic response to a roommate conflict about dirty dishes piling up in the kitchen. Focus on clear communication, shared responsibility, and proposing a solution like a rotating cleaning schedule.",
+          "bad": "What should I do about my roommate?"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Few-Shot Event Ideas",
+        "difficulty": "medium",
+        "type": "few-shot",
+        "description": "Write a few-shot prompt to generate creative event ideas for a college club. Include 2-3 examples of event ideas in your prompt.",
+        "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on creative event planning. Each example should include a target audience and potential impact.",
+        "examples": {
+          "good": "Generate creative event ideas for a college club. Examples: 1. A hackathon focused on sustainability. 2. A workshop on resume building and interview skills. 3. A networking event with alumni.",
+          "bad": "Give me some event ideas."
+        }
+      },
+      {
+        "id": 6,
+        "name": "Chain-of-Thought Math Problem",
+        "difficulty": "medium",
+        "type": "chain-of-thought",
+        "description": "Write a chain-of-thought prompt to solve a complex math problem step-by-step. The prompt should guide the LLM through logical reasoning steps.",
+        "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the problem into steps, and focus on problem-solving structure. Each step should be detailed and thorough.",
+        "examples": {
+          "good": "Solve the equation 2x + 5 = 15 step-by-step. First, subtract 5 from both sides: 2x = 10. Then, divide both sides by 2: x = 5. Explain each step clearly and verify the solution by substituting x = 5 back into the original equation.",
+          "bad": "Solve this math problem: 2x + 5 = 15."
+        }
+      },
+      {
+        "id": 7,
+        "name": "One-Shot Resume Builder",
+        "difficulty": "medium",
+        "type": "one-shot",
+        "description": "Write a one-shot prompt to generate a resume for a college student applying for an internship. Include one example of a resume section in your prompt.",
+        "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on professional resume building. The example should be specific and relevant.",
+        "examples": {
+          "good": "Generate a resume for a college student applying for a software engineering internship. Example: 'Education: Bachelor of Science in Computer Science, XYZ University. Skills: Python, Java, SQL.' Include sections for education, skills, projects, and relevant coursework.",
+          "bad": "Write a resume."
+        }
+      },
+      {
+        "id": 8,
+        "name": "Chain-of-Thought Research Paper",
+        "difficulty": "hard",
+        "type": "chain-of-thought",
+        "description": "Write a chain-of-thought prompt to analyze a research paper abstract and provide a summary, key findings, and potential citations. The prompt should guide the LLM through logical reasoning steps.",
+        "evaluation_criteria": "The prompt should demonstrate multi-step reasoning, break down the analysis into logical steps, and focus on research paper evaluation. Each step should be detailed and thorough.",
+        "examples": {
+          "good": "Analyze the following research paper abstract step-by-step: 'This paper explores the ethical implications of AI in healthcare.' Identify the main thesis, key findings, and potential citations. Explain each step clearly and provide examples of ethical dilemmas discussed in the paper.",
+          "bad": "Analyze this research paper."
+        }
+      },
+      {
+        "id": 9,
+        "name": "Few-Shot Coding Challenge",
+        "difficulty": "hard",
+        "type": "few-shot",
+        "description": "Write a few-shot prompt to solve a coding problem (e.g., sorting algorithm). Include 2-3 examples of code snippets in your prompt.",
+        "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on coding problem-solving. Each example should be specific and executable.",
+        "examples": {
+          "good": "Write a Python function to sort a list of integers using the bubble sort algorithm. Examples: 1. Input: [4, 2, 7, 1], Output: [1, 2, 4, 7]. 2. Input: [10, 5, 3, 8], Output: [3, 5, 8, 10]. Ensure the function includes comments explaining each step of the algorithm.",
+          "bad": "Solve this coding problem."
+        }
+      },
+      {
+        "id": 10,
+        "name": "Chain-of-Thought Debate Prep",
+        "difficulty": "hard",
+        "type": "chain-of-thought",
+        "description": "Write a chain-of-thought prompt to prepare arguments for a college debate on a controversial topic (e.g., climate change). The prompt should guide the LLM through logical reasoning steps.",
+        "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the argument into steps, and focus on persuasive debate preparation. Each step should be detailed and thorough.",
+        "examples": {
+          "good": "Prepare arguments for a college debate on the topic 'Should college education be free?' Step 1: Identify the main points for the affirmative side. Step 2: Identify the main points for the negative side. Step 3: Provide evidence and examples for each point. Step 4: Summarize the strongest arguments for both sides.",
+          "bad": "Prepare for a debate."
+        }
+      }
+    ]
+  }

@@ -1,0 +1,184 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "name": "Chain-of-Thought Basic Math",
+      "difficulty": "easy",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to solve a basic math problem. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the problem into steps, and focus on solving a basic math problem.",
+      "examples": {
+        "good": "Solve the following math problem: 5 + 7. Step 1: Add the units place (5 + 7 = 12). Step 2: Write down the result (12).",
+        "bad": "Do some math."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Chain-of-Thought Sentence Completion",
+      "difficulty": "easy",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to complete a sentence. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on completing a sentence.",
+      "examples": {
+        "good": "Complete the following sentence: 'The sun rises in the...' Step 1: Identify the subject (the sun). Step 2: Determine the direction (east). Step 3: Complete the sentence ('east').",
+        "bad": "Finish this sentence."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Chain-of-Thought Fact Retrieval",
+      "difficulty": "easy",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to retrieve a factual piece of information. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on retrieving a fact.",
+      "examples": {
+        "good": "Retrieve the capital of France. Step 1: Identify the country (France). Step 2: Recall the capital (Paris). Step 3: Provide the answer (Paris).",
+        "bad": "Tell me a fact."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Chain-of-Thought Translation",
+      "difficulty": "easy",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to translate a sentence from one language to another. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on translation.",
+      "examples": {
+        "good": "Translate the following sentence into French: 'Hello, how are you?' Step 1: Identify the greeting ('Hello'). Step 2: Translate the greeting ('Bonjour'). Step 3: Translate the question ('Comment ça va?'). Step 4: Combine the translations ('Bonjour, comment ça va?').",
+        "bad": "Translate this."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chain-of-Thought Summarization",
+      "difficulty": "medium",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to summarize a paragraph. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on summarization.",
+      "examples": {
+        "good": "Summarize the following paragraph: 'The Industrial Revolution was a period of major industrialization...' Step 1: Identify the main topic (Industrial Revolution). Step 2: Identify key points (industrialization, technological advancements). Step 3: Summarize the paragraph ('The Industrial Revolution was a time of significant technological and industrial advancements.').",
+        "bad": "Summarize this."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Chain-of-Thought Code Debugging",
+      "difficulty": "medium",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to debug a Python code snippet. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on debugging.",
+      "examples": {
+        "good": "Debug the following Python code: `print('Hello, World!`.) Step 1: Identify the syntax error (missing closing parenthesis). Step 2: Fix the error (`print('Hello, World!')`). Step 3: Verify the corrected code.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Chain-of-Thought Creative Writing",
+      "difficulty": "medium",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a short creative story. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on creative writing.",
+      "examples": {
+        "good": "Write a short story about a robot discovering emotions. Step 1: Introduce the robot and its world. Step 2: Describe the robot's first encounter with emotions. Step 3: Conclude with the robot's realization about emotions.",
+        "bad": "Tell a story."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Chain-of-Thought Logical Puzzle",
+      "difficulty": "medium",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to solve a logical puzzle. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the puzzle into steps, and focus on solving it.",
+      "examples": {
+        "good": "Solve the following logical puzzle: 'If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?' Step 1: Analyze the first statement (all Bloops are Razzies). Step 2: Analyze the second statement (all Razzies are Lazzies). Step 3: Conclude that all Bloops are Lazzies.",
+        "bad": "Solve this puzzle."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Chain-of-Thought Ethical Dilemma",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to resolve an ethical dilemma. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the dilemma into steps, and focus on resolving it.",
+      "examples": {
+        "good": "Resolve the following ethical dilemma: 'Is it okay to sacrifice one person to save five others?' Step 1: Define the dilemma (utilitarianism vs. individual rights). Step 2: Analyze the consequences of each choice. Step 3: Conclude with a reasoned decision.",
+        "bad": "Answer this dilemma."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Chain-of-Thought Philosophical Question",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to answer a deep philosophical question. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the question into steps, and focus on answering it.",
+      "examples": {
+        "good": "Answer the following philosophical question: 'What is the meaning of life?' Step 1: Define the concept of meaning. Step 2: Explore different philosophical perspectives. Step 3: Conclude with a reasoned answer.",
+        "bad": "Answer this question."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Chain-of-Thought Complex Math",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to solve a complex math problem. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the problem into steps, and focus on solving it.",
+      "examples": {
+        "good": "Solve the following math problem: 'What is the integral of x^2 from 0 to 1?' Step 1: Recall the formula for the integral of x^n. Step 2: Apply the formula to x^2. Step 3: Evaluate the integral from 0 to 1. Step 4: Provide the final answer.",
+        "bad": "Solve this math problem."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Chain-of-Thought Code Generation",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a Python function. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on generating functional code.",
+      "examples": {
+        "good": "Write a Python function to calculate the factorial of a number. Step 1: Define the function. Step 2: Implement a loop to calculate the factorial. Step 3: Return the result. Step 4: Verify the function with an example.",
+        "bad": "Generate some code."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Chain-of-Thought Hypothetical Scenario",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to analyze a hypothetical scenario. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the scenario into steps, and focus on analyzing it.",
+      "examples": {
+        "good": "Analyze the following hypothetical scenario: 'What would happen if humans could live on Mars?' Step 1: Identify the challenges (environment, resources). Step 2: Explore potential solutions (terraforming, technology). Step 3: Conclude with a reasoned analysis.",
+        "bad": "Analyze this scenario."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Chain-of-Thought Debate Topic",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to argue for or against a debate topic. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debate into steps, and focus on presenting a coherent argument.",
+      "examples": {
+        "good": "Argue for or against the following debate topic: 'Should AI be allowed to make decisions in healthcare?' Step 1: Define the topic (AI in healthcare). Step 2: Present arguments for (efficiency, accuracy). Step 3: Present arguments against (ethics, bias). Step 4: Conclude with a reasoned stance.",
+        "bad": "Debate this topic."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Chain-of-Thought Sarcasm Detection",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to detect sarcasm in a sentence. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the task into steps, and focus on detecting sarcasm.",
+      "examples": {
+        "good": "Detect sarcasm in the following sentence: 'Oh great, another Monday. Just what I needed.' Step 1: Identify the tone (sarcastic). Step 2: Analyze the context (negative sentiment about Monday). Step 3: Conclude that the sentence is sarcastic.",
+        "bad": "Detect sarcasm."
+      }
+    }
+  ]
+}

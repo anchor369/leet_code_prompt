@@ -1,0 +1,244 @@
+{
+  "problems": [
+    {
+      "id": 51,
+      "name": "Zero-Shot Job Update",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a LinkedIn post announcing a new job role. The post should include details about the role, company, and excitement for the new opportunity.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating a professional and engaging job update post.",
+      "examples": {
+        "good": "Write a LinkedIn post announcing my new role as a Software Engineer at TechCorp. Include details about the role, my excitement for the opportunity, and gratitude for the support I've received.",
+        "bad": "Announce my new job."
+      }
+    },
+    {
+      "id": 52,
+      "name": "One-Shot Thought Leadership",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a LinkedIn post sharing insights on a trending topic in your industry. Include one example of a thought leadership post in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating a thought-provoking and insightful post.",
+      "examples": {
+        "good": "Write a LinkedIn post sharing insights on the future of AI in healthcare. Example: 'The integration of AI in healthcare is revolutionizing patient care. Here are three key trends to watch...'",
+        "bad": "Share insights on AI."
+      }
+    },
+    {
+      "id": 53,
+      "name": "Few-Shot Networking Post",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate a LinkedIn post inviting connections to a networking event. Include 2-3 examples of networking event posts in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating an engaging and professional networking post.",
+      "examples": {
+        "good": "Write a LinkedIn post inviting connections to a networking event. Examples: 1. 'Join me at the Tech Innovators Meetup next week! Let's discuss the latest trends in technology.' 2. 'Excited to host a networking event for professionals in the healthcare industry. RSVP now!'",
+        "bad": "Invite people to an event."
+      }
+    },
+    {
+      "id": 54,
+      "name": "Chain-of-Thought Career Reflection",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a LinkedIn post reflecting on your career journey. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the reflection process into steps, and focus on generating a heartfelt and inspiring post.",
+      "examples": {
+        "good": "Write a LinkedIn post reflecting on my career journey. Step 1: Start with my early career experiences. Step 2: Highlight key milestones and lessons learned. Step 3: Express gratitude to mentors and colleagues. Step 4: Share my vision for the future.",
+        "bad": "Reflect on my career."
+      }
+    },
+    {
+      "id": 55,
+      "name": "Zero-Shot Professional Achievement",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a LinkedIn post celebrating a professional achievement, such as completing a certification or winning an award.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating a celebratory and professional post.",
+      "examples": {
+        "good": "Write a LinkedIn post celebrating my completion of the AWS Certified Solutions Architect certification. Include details about the certification and my excitement for the next steps in my career.",
+        "bad": "Celebrate my achievement."
+      }
+    },
+    {
+      "id": 56,
+      "name": "One-Shot Industry News",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a LinkedIn post sharing your thoughts on a recent industry news article. Include one example of an industry news post in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating an insightful and engaging post.",
+      "examples": {
+        "good": "Write a LinkedIn post sharing my thoughts on a recent article about the impact of remote work on productivity. Example: 'The shift to remote work has transformed how we approach productivity. Here are my key takeaways...'",
+        "bad": "Share thoughts on remote work."
+      }
+    },
+    {
+      "id": 57,
+      "name": "Few-Shot Personal Branding",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate a LinkedIn post that enhances your personal brand. Include 2-3 examples of personal branding posts in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating a post that strengthens your personal brand.",
+      "examples": {
+        "good": "Write a LinkedIn post that enhances my personal brand. Examples: 1. 'As a data scientist, I'm passionate about using data to drive decision-making. Here's how I approach complex problems...' 2. 'I believe in the power of collaboration. Here's how I've built successful teams in my career.'",
+        "bad": "Enhance my personal brand."
+      }
+    },
+    {
+      "id": 58,
+      "name": "Chain-of-Thought Mentorship Post",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a LinkedIn post about the importance of mentorship in your career. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the mentorship topic into steps, and focus on generating a thoughtful and inspiring post.",
+      "examples": {
+        "good": "Write a LinkedIn post about the importance of mentorship in my career. Step 1: Share my early experiences with mentors. Step 2: Highlight the impact of mentorship on my career growth. Step 3: Encourage others to seek out mentors. Step 4: Offer to mentor others in my field.",
+        "bad": "Talk about mentorship."
+      }
+    },
+    {
+      "id": 59,
+      "name": "Zero-Shot Networking Invitation",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a LinkedIn post inviting connections to connect with you for networking opportunities.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating a professional and engaging networking invitation.",
+      "examples": {
+        "good": "Write a LinkedIn post inviting connections to connect with me for networking opportunities. Include details about my professional background and the types of connections I'm looking to make.",
+        "bad": "Invite people to connect."
+      }
+    },
+    {
+      "id": 60,
+      "name": "One-Shot Career Advice",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a LinkedIn post sharing career advice for young professionals. Include one example of a career advice post in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating insightful and actionable career advice.",
+      "examples": {
+        "good": "Write a LinkedIn post sharing career advice for young professionals. Example: 'One piece of advice I wish I had received early in my career is to focus on building a strong professional network. Here's why...'",
+        "bad": "Share career advice."
+      }
+    },
+    {
+      "id": 61,
+      "name": "Few-Shot Industry Trends",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate a LinkedIn post discussing emerging trends in your industry. Include 2-3 examples of industry trends posts in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating an insightful and engaging post.",
+      "examples": {
+        "good": "Write a LinkedIn post discussing emerging trends in the tech industry. Examples: 1. 'The rise of AI is transforming how we approach problem-solving. Here's what you need to know...' 2. 'Blockchain technology is revolutionizing industries. Here are the key trends to watch...'",
+        "bad": "Discuss industry trends."
+      }
+    },
+    {
+      "id": 62,
+      "name": "Chain-of-Thought Personal Growth",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a LinkedIn post reflecting on your personal growth over the past year. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the reflection process into steps, and focus on generating a heartfelt and inspiring post.",
+      "examples": {
+        "good": "Write a LinkedIn post reflecting on my personal growth over the past year. Step 1: Start with my goals at the beginning of the year. Step 2: Highlight key achievements and challenges. Step 3: Share lessons learned. Step 4: Express gratitude to those who supported me.",
+        "bad": "Reflect on my personal growth."
+      }
+    },
+    {
+      "id": 63,
+      "name": "Zero-Shot Team Achievement",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a LinkedIn post celebrating a team achievement, such as completing a major project.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating a celebratory and professional post.",
+      "examples": {
+        "good": "Write a LinkedIn post celebrating the successful completion of a major project by my team at TechCorp. Include details about the project and my gratitude to the team.",
+        "bad": "Celebrate a team achievement."
+      }
+    },
+    {
+      "id": 64,
+      "name": "One-Shot Leadership Reflection",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a LinkedIn post reflecting on your leadership style and experiences. Include one example of a leadership reflection post in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating an insightful and engaging post.",
+      "examples": {
+        "good": "Write a LinkedIn post reflecting on my leadership style and experiences. Example: 'As a leader, I believe in empowering my team to achieve their full potential. Here's how I approach leadership...'",
+        "bad": "Reflect on my leadership."
+      }
+    },
+    {
+      "id": 65,
+      "name": "Few-Shot Career Transition",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate a LinkedIn post announcing a career transition. Include 2-3 examples of career transition posts in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating a professional and engaging post.",
+      "examples": {
+        "good": "Write a LinkedIn post announcing my transition from software engineering to product management. Examples: 1. 'Excited to share that I'm starting a new chapter in my career as a Product Manager at TechCorp!' 2. 'After 5 years in software engineering, I'm thrilled to transition into product management. Here's why...'",
+        "bad": "Announce my career transition."
+      }
+    },
+    {
+      "id": 66,
+      "name": "Chain-of-Thought Industry Impact",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a LinkedIn post discussing the impact of your work on the industry. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the impact discussion into steps, and focus on generating a thoughtful and inspiring post.",
+      "examples": {
+        "good": "Write a LinkedIn post discussing the impact of my work on the tech industry. Step 1: Start with my contributions to key projects. Step 2: Highlight the broader impact on the industry. Step 3: Share my vision for the future. Step 4: Encourage others to make an impact.",
+        "bad": "Discuss my impact on the industry."
+      }
+    },
+    {
+      "id": 67,
+      "name": "Zero-Shot Professional Milestone",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a LinkedIn post celebrating a professional milestone, such as reaching a work anniversary.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating a celebratory and professional post.",
+      "examples": {
+        "good": "Write a LinkedIn post celebrating my 5-year work anniversary at TechCorp. Include details about my journey and gratitude to my colleagues.",
+        "bad": "Celebrate my work anniversary."
+      }
+    },
+    {
+      "id": 68,
+      "name": "One-Shot Industry Challenge",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a LinkedIn post discussing a challenge facing your industry. Include one example of an industry challenge post in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating an insightful and engaging post.",
+      "examples": {
+        "good": "Write a LinkedIn post discussing the challenge of data privacy in the tech industry. Example: 'Data privacy is one of the biggest challenges facing the tech industry today. Here's how we can address it...'",
+        "bad": "Discuss an industry challenge."
+      }
+    },
+    {
+      "id": 69,
+      "name": "Few-Shot Personal Achievement",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to generate a LinkedIn post celebrating a personal achievement, such as completing a marathon. Include 2-3 examples of personal achievement posts in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on generating a celebratory and inspiring post.",
+      "examples": {
+        "good": "Write a LinkedIn post celebrating my completion of a marathon. Examples: 1. 'Thrilled to have completed my first marathon! Here's what I learned along the way...' 2. 'Crossing the finish line of the marathon was a dream come true. Here's how I prepared...'",
+        "bad": "Celebrate my personal achievement."
+      }
+    },
+    {
+      "id": 70,
+      "name": "Chain-of-Thought Career Advice",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to generate a LinkedIn post offering career advice to young professionals. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the career advice into steps, and focus on generating thoughtful and actionable advice.",
+      "examples": {
+        "good": "Write a LinkedIn post offering career advice to young professionals. Step 1: Start with the importance of setting clear career goals. Step 2: Highlight the value of continuous learning. Step 3: Share tips for building a strong professional network. Step 4: Encourage young professionals to seek mentorship.",
+        "bad": "Offer career advice."
+      }
+    }
+  ]
+}

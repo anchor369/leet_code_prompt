@@ -1,0 +1,244 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "name": "Zero-Shot Basic Conversation",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to initiate a basic conversation with an AI chatbot.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on initiating a simple conversation.",
+      "examples": {
+        "good": "Start a conversation with an AI chatbot by greeting it and asking how it is doing.",
+        "bad": "Talk to the chatbot."
+      }
+    },
+    {
+      "id": 2,
+      "name": "One-Shot Simple Query",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to ask an AI chatbot a simple question. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on asking a simple question.",
+      "examples": {
+        "good": "Ask the AI chatbot a simple question. Example: 'What is the weather today?'",
+        "bad": "Ask a question."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Few-Shot Greeting Variations",
+      "difficulty": "easy",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to engage an AI chatbot with different greeting styles. Include 2-3 examples of greetings.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on varying greeting styles.",
+      "examples": {
+        "good": "Engage the AI chatbot with different greetings. Examples: 1. 'Hello! How are you?' 2. 'Hi there! What’s new?' 3. 'Good morning! How can you help me today?'",
+        "bad": "Greet the chatbot."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Zero-Shot Open-Ended Question",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to ask an AI chatbot an open-ended question.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on asking an open-ended question.",
+      "examples": {
+        "good": "Ask the AI chatbot an open-ended question like, 'What are your thoughts on the future of technology?'",
+        "bad": "Ask a question."
+      }
+    },
+    {
+      "id": 5,
+      "name": "One-Shot Fact-Based Query",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to ask an AI chatbot a fact-based question. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on asking a fact-based question.",
+      "examples": {
+        "good": "Ask the AI chatbot a fact-based question. Example: 'What is the capital of France?'",
+        "bad": "Ask a fact."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Few-Shot Contextual Conversation",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to engage an AI chatbot in a contextual conversation. Include 2-3 examples of contextual interactions.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on maintaining context in the conversation.",
+      "examples": {
+        "good": "Engage the AI chatbot in a contextual conversation. Examples: 1. 'Tell me about the history of AI.' 2. 'What are the latest advancements in AI?' 3. 'How does AI impact daily life?'",
+        "bad": "Have a conversation."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Chain-of-Thought Complex Query",
+      "difficulty": "medium",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to ask an AI chatbot a complex question that requires logical reasoning. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the complex query into steps, and focus on generating a detailed response.",
+      "examples": {
+        "good": "Ask the AI chatbot a complex question that requires logical reasoning. Step 1: Define the problem. Step 2: Break down the problem into smaller parts. Step 3: Ask the chatbot to provide a detailed explanation for each part.",
+        "bad": "Ask a complex question."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Zero-Shot Multi-Turn Conversation",
+      "difficulty": "medium",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to engage an AI chatbot in a multi-turn conversation on a specific topic.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on maintaining a coherent multi-turn conversation.",
+      "examples": {
+        "good": "Engage the AI chatbot in a multi-turn conversation about climate change. Start by asking about its causes, then discuss its effects, and finally explore potential solutions.",
+        "bad": "Talk to the chatbot about climate change."
+      }
+    },
+    {
+      "id": 9,
+      "name": "One-Shot Role-Playing Conversation",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to engage an AI chatbot in a role-playing conversation. Include one example of a role-playing scenario in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on maintaining a role-playing context.",
+      "examples": {
+        "good": "Engage the AI chatbot in a role-playing conversation where it acts as a travel agent. Example: 'You are a travel agent. Help me plan a trip to Italy, including flights, accommodations, and activities.'",
+        "bad": "Role-play with the chatbot."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Few-Shot Emotional Intelligence",
+      "difficulty": "medium",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to test an AI chatbot's emotional intelligence. Include 2-3 examples of emotionally charged scenarios in your prompt.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on evaluating the chatbot's ability to handle emotional conversations.",
+      "examples": {
+        "good": "Test the AI chatbot's emotional intelligence with the following scenarios: 1. 'I’m feeling very stressed about work. Can you help me relax?' 2. 'I just had a fight with my friend. What should I do?' 3. 'I’m feeling lonely. Can you keep me company?'",
+        "bad": "Test emotional intelligence."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Chain-of-Thought Debate Simulation",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to simulate a debate with an AI chatbot on a controversial topic. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the debate into steps, and focus on generating a coherent and structured debate.",
+      "examples": {
+        "good": "Simulate a debate with the AI chatbot on the topic of 'Universal Basic Income.' Step 1: Present your argument in favor of UBI. Step 2: Ask the chatbot to counter your argument. Step 3: Rebut the chatbot's counterpoints. Step 4: Conclude the debate.",
+        "bad": "Debate with the chatbot."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Zero-Shot Ethical Dilemma",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to ask an AI chatbot to resolve an ethical dilemma.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on presenting an ethical dilemma and asking for a resolution.",
+      "examples": {
+        "good": "Ask the AI chatbot to resolve an ethical dilemma: 'Is it okay to sacrifice one person to save five others? Provide a detailed explanation.'",
+        "bad": "Ask about ethics."
+      }
+    },
+    {
+      "id": 13,
+      "name": "One-Shot Creative Storytelling",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to ask an AI chatbot to create a short story. Include one example of a story prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating a creative story.",
+      "examples": {
+        "good": "Ask the AI chatbot to create a short story. Example: 'Write a story about a robot that discovers emotions.'",
+        "bad": "Tell a story."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Few-Shot Multi-Language Conversation",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to engage an AI chatbot in a conversation using multiple languages. Include 2-3 examples of multilingual interactions.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on testing the chatbot's multilingual capabilities.",
+      "examples": {
+        "good": "Engage the AI chatbot in a multilingual conversation. Examples: 1. 'Hola, ¿cómo estás?' 2. 'Bonjour, comment ça va?' 3. '你好，你会说中文吗？'",
+        "bad": "Talk in multiple languages."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Chain-of-Thought Problem Solving",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to ask an AI chatbot to solve a complex problem. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the problem into steps, and focus on generating a detailed solution.",
+      "examples": {
+        "good": "Ask the AI chatbot to solve a complex problem. Step 1: Define the problem. Step 2: Break down the problem into smaller parts. Step 3: Ask the chatbot to provide a solution for each part. Step 4: Combine the solutions into a final answer.",
+        "bad": "Solve a problem."
+      }
+    },
+    {
+      "id": 16,
+      "name": "Zero-Shot Sarcasm Detection",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to test an AI chatbot's ability to detect sarcasm.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on testing the chatbot's ability to understand sarcasm.",
+      "examples": {
+        "good": "Test the AI chatbot's ability to detect sarcasm. Example: 'Oh great, another Monday. Just what I needed.'",
+        "bad": "Test sarcasm."
+      }
+    },
+    {
+      "id": 17,
+      "name": "One-Shot Humor Generation",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to ask an AI chatbot to generate a humorous response. Include one example of a humor prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating humor.",
+      "examples": {
+        "good": "Ask the AI chatbot to generate a humorous response. Example: 'Tell me a joke about AI.'",
+        "bad": "Make me laugh."
+      }
+    },
+    {
+      "id": 18,
+      "name": "Few-Shot Cultural Sensitivity",
+      "difficulty": "hard",
+      "type": "few-shot",
+      "description": "Write a few-shot prompt to test an AI chatbot's cultural sensitivity. Include 2-3 examples of culturally sensitive topics.",
+      "evaluation_criteria": "The prompt should include 2-3 clear examples, demonstrate few-shot learning, and focus on evaluating the chatbot's cultural awareness.",
+      "examples": {
+        "good": "Test the AI chatbot's cultural sensitivity with the following topics: 1. 'What are some traditional customs in Japan?' 2. 'How do people celebrate Diwali in India?' 3. 'What is the significance of Thanksgiving in the US?'",
+        "bad": "Test cultural sensitivity."
+      }
+    },
+    {
+      "id": 19,
+      "name": "Chain-of-Thought Hypothetical Scenario",
+      "difficulty": "hard",
+      "type": "chain-of-thought",
+      "description": "Write a chain-of-thought prompt to ask an AI chatbot to analyze a hypothetical scenario. The prompt should guide the LLM through logical reasoning steps.",
+      "evaluation_criteria": "The prompt should demonstrate clear logical reasoning, break down the scenario into steps, and focus on generating a detailed analysis.",
+      "examples": {
+        "good": "Ask the AI chatbot to analyze a hypothetical scenario. Step 1: Define the scenario. Step 2: Break down the scenario into key components. Step 3: Ask the chatbot to analyze each component. Step 4: Combine the analyses into a final conclusion.",
+        "bad": "Analyze a scenario."
+      }
+    },
+    {
+      "id": 20,
+      "name": "Zero-Shot Philosophical Question",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to ask an AI chatbot a deep philosophical question.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on asking a thought-provoking philosophical question.",
+      "examples": {
+        "good": "Ask the AI chatbot a philosophical question: 'What is the meaning of life?'",
+        "bad": "Ask a deep question."
+      }
+    }
+  ]
+}

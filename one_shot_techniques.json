@@ -1,0 +1,184 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "name": "One-Shot Basic Math",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to solve a basic math problem. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on solving a basic math problem.",
+      "examples": {
+        "good": "Solve the following math problem: 5 + 7. Example: 3 + 4 = 7.",
+        "bad": "Do some math."
+      }
+    },
+    {
+      "id": 2,
+      "name": "One-Shot Sentence Completion",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to complete a sentence. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on completing a sentence.",
+      "examples": {
+        "good": "Complete the following sentence: 'The sun rises in the...' Example: 'The sky is... blue.'",
+        "bad": "Finish this sentence."
+      }
+    },
+    {
+      "id": 3,
+      "name": "One-Shot Fact Retrieval",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to retrieve a factual piece of information. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on retrieving a fact.",
+      "examples": {
+        "good": "What is the capital of France? Example: The capital of Italy is Rome.",
+        "bad": "Tell me a fact."
+      }
+    },
+    {
+      "id": 4,
+      "name": "One-Shot Translation",
+      "difficulty": "easy",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to translate a sentence from one language to another. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on translation.",
+      "examples": {
+        "good": "Translate the following sentence into French: 'Hello, how are you?' Example: 'Goodbye' is 'Au revoir' in French.",
+        "bad": "Translate this."
+      }
+    },
+    {
+      "id": 5,
+      "name": "One-Shot Summarization",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to summarize a paragraph. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on summarization.",
+      "examples": {
+        "good": "Summarize the following paragraph: 'The Industrial Revolution was a period of major industrialization...' Example: 'The Renaissance was a period of cultural rebirth...'",
+        "bad": "Summarize this."
+      }
+    },
+    {
+      "id": 6,
+      "name": "One-Shot Code Debugging",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to debug a simple Python code snippet. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on debugging.",
+      "examples": {
+        "good": "Debug the following Python code: `print('Hello, World!`.) Example: Fix the syntax error in `print('Hello')`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 7,
+      "name": "One-Shot Creative Writing",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a short creative story. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on creative writing.",
+      "examples": {
+        "good": "Write a short story about a robot discovering emotions. Example: 'Once upon a time, a robot named R2-D2...'",
+        "bad": "Tell a story."
+      }
+    },
+    {
+      "id": 8,
+      "name": "One-Shot Logical Puzzle",
+      "difficulty": "medium",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to solve a logical puzzle. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on solving a logical puzzle.",
+      "examples": {
+        "good": "Solve the following logical puzzle: 'If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?' Example: 'If all cats are animals, and all animals are mammals, are all cats mammals?'",
+        "bad": "Solve this puzzle."
+      }
+    },
+    {
+      "id": 9,
+      "name": "One-Shot Ethical Dilemma",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to resolve an ethical dilemma. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on resolving an ethical dilemma.",
+      "examples": {
+        "good": "Resolve the following ethical dilemma: 'Is it okay to sacrifice one person to save five others?' Example: 'Is it okay to lie to protect someone's feelings?'",
+        "bad": "Answer this dilemma."
+      }
+    },
+    {
+      "id": 10,
+      "name": "One-Shot Philosophical Question",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to answer a deep philosophical question. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on answering a philosophical question.",
+      "examples": {
+        "good": "Answer the following philosophical question: 'What is the meaning of life?' Example: 'What is the nature of reality?'",
+        "bad": "Answer this question."
+      }
+    },
+    {
+      "id": 11,
+      "name": "One-Shot Complex Math",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to solve a complex math problem. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on solving a complex math problem.",
+      "examples": {
+        "good": "Solve the following math problem: 'What is the integral of x^2 from 0 to 1?' Example: 'What is the derivative of x^3?'",
+        "bad": "Solve this math problem."
+      }
+    },
+    {
+      "id": 12,
+      "name": "One-Shot Code Generation",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to generate a Python function. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on generating functional code.",
+      "examples": {
+        "good": "Write a Python function to calculate the factorial of a number. Example: 'Write a function to add two numbers.'",
+        "bad": "Generate some code."
+      }
+    },
+    {
+      "id": 13,
+      "name": "One-Shot Hypothetical Scenario",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to analyze a hypothetical scenario. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on analyzing a hypothetical scenario.",
+      "examples": {
+        "good": "Analyze the following hypothetical scenario: 'What would happen if humans could live on Mars?' Example: 'What would happen if time travel were possible?'",
+        "bad": "Analyze this scenario."
+      }
+    },
+    {
+      "id": 14,
+      "name": "One-Shot Debate Topic",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to argue for or against a debate topic. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on presenting a debate argument.",
+      "examples": {
+        "good": "Argue for or against the following debate topic: 'Should AI be allowed to make decisions in healthcare?' Example: 'Should schools eliminate homework?'",
+        "bad": "Debate this topic."
+      }
+    },
+    {
+      "id": 15,
+      "name": "One-Shot Sarcasm Detection",
+      "difficulty": "hard",
+      "type": "one-shot",
+      "description": "Write a one-shot prompt to detect sarcasm in a sentence. Include one example in your prompt.",
+      "evaluation_criteria": "The prompt should include one clear example, demonstrate one-shot learning, and focus on detecting sarcasm.",
+      "examples": {
+        "good": "Detect sarcasm in the following sentence: 'Oh great, another Monday. Just what I needed.' Example: 'Sure, because I love doing extra work on weekends.'",
+        "bad": "Detect sarcasm."
+      }
+    }
+  ]
+}

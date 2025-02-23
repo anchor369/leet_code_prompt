@@ -1,0 +1,184 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "name": "Zero-Shot Basic Math",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to solve a basic math problem.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on solving a basic math problem.",
+      "examples": {
+        "good": "Solve the following math problem: 5 + 7.",
+        "bad": "Do some math."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Zero-Shot Sentence Completion",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to complete a sentence.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on completing a sentence.",
+      "examples": {
+        "good": "Complete the following sentence: 'The sun rises in the...'",
+        "bad": "Finish this sentence."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Zero-Shot Fact Retrieval",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to retrieve a factual piece of information.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on retrieving a fact.",
+      "examples": {
+        "good": "What is the capital of France?",
+        "bad": "Tell me a fact."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Zero-Shot Translation",
+      "difficulty": "easy",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to translate a sentence from one language to another.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on translation.",
+      "examples": {
+        "good": "Translate the following sentence into French: 'Hello, how are you?'",
+        "bad": "Translate this."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Zero-Shot Summarization",
+      "difficulty": "medium",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to summarize a paragraph.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on summarization.",
+      "examples": {
+        "good": "Summarize the following paragraph: 'The Industrial Revolution was a period of major industrialization...'",
+        "bad": "Summarize this."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Zero-Shot Code Debugging",
+      "difficulty": "medium",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to debug a simple Python code snippet.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on debugging.",
+      "examples": {
+        "good": "Debug the following Python code: `print('Hello, World!`.",
+        "bad": "Fix this code."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Zero-Shot Creative Writing",
+      "difficulty": "medium",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a short creative story.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on creative writing.",
+      "examples": {
+        "good": "Write a short story about a robot discovering emotions.",
+        "bad": "Tell a story."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Zero-Shot Logical Puzzle",
+      "difficulty": "medium",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to solve a logical puzzle.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on solving a logical puzzle.",
+      "examples": {
+        "good": "Solve the following logical puzzle: 'If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?'",
+        "bad": "Solve this puzzle."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Zero-Shot Ethical Dilemma",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to resolve an ethical dilemma.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on resolving an ethical dilemma.",
+      "examples": {
+        "good": "Resolve the following ethical dilemma: 'Is it okay to sacrifice one person to save five others?'",
+        "bad": "Answer this dilemma."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Zero-Shot Philosophical Question",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to answer a deep philosophical question.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on answering a philosophical question.",
+      "examples": {
+        "good": "Answer the following philosophical question: 'What is the meaning of life?'",
+        "bad": "Answer this question."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Zero-Shot Complex Math",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to solve a complex math problem.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on solving a complex math problem.",
+      "examples": {
+        "good": "Solve the following math problem: 'What is the integral of x^2 from 0 to 1?'",
+        "bad": "Solve this math problem."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Zero-Shot Code Generation",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to generate a Python function.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on generating functional code.",
+      "examples": {
+        "good": "Write a Python function to calculate the factorial of a number.",
+        "bad": "Generate some code."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Zero-Shot Hypothetical Scenario",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to analyze a hypothetical scenario.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on analyzing a hypothetical scenario.",
+      "examples": {
+        "good": "Analyze the following hypothetical scenario: 'What would happen if humans could live on Mars?'",
+        "bad": "Analyze this scenario."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Zero-Shot Debate Topic",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to argue for or against a debate topic.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on presenting a debate argument.",
+      "examples": {
+        "good": "Argue for or against the following debate topic: 'Should AI be allowed to make decisions in healthcare?'",
+        "bad": "Debate this topic."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Zero-Shot Sarcasm Detection",
+      "difficulty": "hard",
+      "type": "zero-shot",
+      "description": "Write a zero-shot prompt to detect sarcasm in a sentence.",
+      "evaluation_criteria": "The prompt should be clear, specific, and directly address the task without examples. It should focus on detecting sarcasm.",
+      "examples": {
+        "good": "Detect sarcasm in the following sentence: 'Oh great, another Monday. Just what I needed.'",
+        "bad": "Detect sarcasm."
+      }
+    }
+  ]
+}
