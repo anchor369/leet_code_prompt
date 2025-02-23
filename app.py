@@ -35,7 +35,7 @@ You are an expert prompt engineering evaluator. Your task is to evaluate the fol
 PROBLEM: {problem_name}
 PROMPT TYPE REQUIRED: {problem_type}
 TASK DESCRIPTION: {task_description}
-EVALUATION CRriteria: {evaluation_criteria}
+EVALUATION CRITERIA: {evaluation_criteria}
 
 USER PROMPT:
 {user_prompt}
@@ -226,8 +226,7 @@ def main():
                     if problem['id'] not in st.session_state['completed_problems']:
                         st.session_state['completed_problems'].add(problem['id'])
                         st.session_state['progress'][topic]['completed'] += 1
-                        st.balloons()
-                        st.rerun()  # Refresh the app to update the UI immediately
+                        st.balloons()  # Show balloons for celebration
             else:
                 st.error("Please enter a valid prompt.")
 
