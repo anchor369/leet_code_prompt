@@ -227,6 +227,7 @@ def main():
                         st.session_state['completed_problems'].add(problem['id'])
                         st.session_state['progress'][topic]['completed'] += 1
                         st.balloons()
+                        st.experimental_rerun()  # Rerun the app to update the UI immediately
             else:
                 st.error("Please enter a valid prompt.")
 
