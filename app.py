@@ -98,7 +98,7 @@ def evaluate_prompt(llm, problem, user_prompt):
         # Fetch examples from the problem
         good_example = problem.get("examples", {}).get("good", "No good example provided.")
         bad_example = problem.get("examples", {}).get("bad", "No bad example provided.")
-
+        user_prompt = " " + user_prompt
         # Prepare the evaluation prompt
         evaluation_prompt = evaluation_prompt_template.format(
             problem_name=problem['name'],
